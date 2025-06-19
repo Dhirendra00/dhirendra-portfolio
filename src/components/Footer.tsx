@@ -2,6 +2,7 @@
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -51,7 +52,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center gap-2">
-            Made with <Heart className="h-4 w-4 text-red-500" /> by Dhirendra Baduwal © 2024
+            Dhirendra Baduwal © {currentYear}
           </p>
         </div>
       </div>
