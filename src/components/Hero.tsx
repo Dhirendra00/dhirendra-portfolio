@@ -71,7 +71,7 @@ export const Hero = () => {
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative">
             <div className="w-80 h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
-              DB
+              <img src="/lovable-uploads/4b7939dd-357c-4653-97c6-e47e2617eb12.heic" />
             </div>
             
             {/* Floating badges */}
